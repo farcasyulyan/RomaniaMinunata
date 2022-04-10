@@ -4,12 +4,15 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Romania a country with nice people and beautiful places</title>
+      <meta name="autor" content="Iulian Farcas">
+      <meta name="keywords" content="HTML, CSS and Javascript">
+      <meta http http-equiv="refresh" content="30">
+      <title>❤️Romania Minunata</title>
       <link rel="stylesheet" href="index.css">
   </head>
   <style>
-    header {
-    background-color: rgb(238, 241, 217);
+header {
+    background-image: linear-gradient(rgb(175, 245, 135), rgb(101, 221, 221));
     margin: 0px;
     padding: 10px;
     position: sticky;
@@ -91,39 +94,54 @@ aside.left li {
 aside.left li a {
     text-decoration: none;
 }
-aside.right {
-     background-color: none;
-     color: rgb(24, 23, 23);
-     font-weight: bold;
-     font-size: 2vw;
+.right {
+     color: rgb(24, 37, 226);
+     font-weight: normal;
+     font-size: 1vw;
      float:right;
-     width: 10%;
+     width: 20%;
      padding : 2px;
-     margin-top: none;
      margin-right: 0px;
      margin-bottom: 14px;
+     line-height: 2;
 } 
-aside.right ul { 
+.right ul { 
     list-style-type: none;
     padding: 0; 
     margin-right: 2px;
     background-color: #f1f1f1;
     text-align: center;
 }
-aside.right ul li {
+.right ul li {
     margin: 10px;
     padding: 5px;
     list-style-type: none;
 }
-aside.right ul li a {
+.right ul li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
 }
-aside.right ul li a:hover {
+.right ul li a:hover {
     background-color: #555;
     color: white;
+}
+#righttext {
+    font-size: 12px;
+    color: blue;
+}
+button {
+    background-image: linear-gradient(rgb(175, 245, 135), rgb(58, 116, 116));
+    padding: 16px;
+    border-radius: 5%;
+    width: 100%;
+    margin: 0px;
+    font-size: 1vw;
+    font-family: 43%;
+    font-weight: bold;
+    color: rgb(238, 238, 247);
+    border: none;
 }
 table, td, th {
     text-align: center;
@@ -139,14 +157,6 @@ table, td, th {
     font-size: 18px;
     font-weight: bold;
 }
-.listapoze a {
-    color: blue;
-    padding: 8px;
-    text-decoration: solid left;
-    border: 1px solid yellowgreen;
-    border-radius: 20%;
-    margin: 2px;
-}
 a:link {
     color:blue;
 }
@@ -160,7 +170,6 @@ a:active {
 }
 .oras {
     background-color: aquamarine;
-    margin: 0px;
     padding: 0px;
     border-radius: 10px;
     text-align: center;
@@ -203,94 +212,168 @@ footer {
       <nav>
         <h2 class="siglarom">Romania Minunata </h2>
         <ul>
-          <li class="link"><a href="file:///C:/Users/iulia/Desktop/WR/2022%20Private%20Tour.html">2022 private tour</a></li>
-          <li class="link"><a href="file:///C:/Users/iulia/Desktop/WR/Culture.html">Culture</a></li>
-          <li class="link"><a href="file:///C:/Users/iulia/Desktop/WR/Turism.html">Turism</a></li>
-          <li class="link"><a href="file:///C:/Users/iulia/Desktop/WR/YellowstoneRo.html">Yellowstone RO</a></li>
+          <li class="link"><a href="2022 Private Tour.html">2022 private tour</a></li>
+          <li class="link"><a href="Culture.html">Culture</a></li>
+          <li class="link"><a href="Turism.html">Turism</a></li>
+          <li class="link"><a href="YellowstoneRo.html">Yellowstone RO</a></li>
           <li class="link"><a href="contact.asp">Summer</a></li>
           <li class="link"><a href="about.asp">Winter</a></li>
           <li class="link"><a href="cacat.yeh">Adventure</a></li>
           <li class="link"><a href="nustiu.org">Transport</a></li>
-          <li class="link"><a href="file:///C:/Users/iulia/Desktop/WR/contact.html">Contact</a></li>
+          <li class="link"><a href="contact.html">Contact</a></li>
           <li id="search"><a href="images/diverse/search.jpg"></a>
             <form>
               <input type="text" name="search" placeholder="Search..">
             </form>
           </li>
-          <li><h2>&#128526;</h2></li>
         </ul>
       </nav>  
     </header>
   <hr size="3" color="#d6d1d1" noshade>
       <aside class="left">
       <ul>
-        <li class="oras"><a href="https://en.wikipedia.org/wiki/Bucharest">Bucuresti</a></li><br>
-        <li class="oras"><a href="https://en.wikipedia.org/wiki/Bra%C8%99ov">Brasov</a></li><br>
-        <li class="oras"><a href="https://en.wikipedia.org/wiki/Constan%C8%9Ba">Consanta</a></li><br>
-        <li class="oras"><a href="https://en.wikipedia.org/wiki/Timi%C8%99oara">Timisoara</a></li><br>
-        <li class="oras"><a href="https://en.wikipedia.org/wiki/Cluj-Napoca">Cluj</a></li><br>
-        <li class="oras"><a href="https://en.wikipedia.org/wiki/Craiova">Craiova</a></li><br>
-        <li class="oras"><a href="https://en.wikipedia.org/wiki/Ia%C8%99i">Iasi</a></li><br>
-        <li class="oras"><a href="https://en.wikipedia.org/wiki/Oradea">Oradea</a></li><br>
-        <li class="oras"><a href="https://en.wikipedia.org/wiki/Arad,_Romania">Arad</a></li>
+        <li class="oras"><a href="https://en.wikipedia.org/wiki/Bucharest">Bucuresti
+          <img src="images/index/bucuresti2.jpg" alt="error picture" width="120"></a></li><br>
+        <li class="oras"><a href="https://en.wikipedia.org/wiki/Bra%C8%99ov">Brasov
+          <img src="images/index/brasov1.jpg" alt="error picture" width="120"></a></li><br>
+        <li class="oras"><a href="https://en.wikipedia.org/wiki/Constan%C8%9Ba">Consanta
+        <img src="images/index/constanta1.jpg" alt="error picture" width="120"></a></li><br>
+        <li class="oras"><a href="https://en.wikipedia.org/wiki/Timi%C8%99oara">Timisoara
+        <img src="images/index/timisoara1.jpg" alt="error picture" width="120"></a></li><br>
+        <li class="oras"><a href="https://en.wikipedia.org/wiki/Cluj-Napoca">Cluj
+        <img src="images/index/cluj1.jpg" alt="error picture" width="120"></a></li><br>
+        <li class="oras"><a href="https://en.wikipedia.org/wiki/Craiova">Craiova
+        <img src="images/index/craiova1.jpg" alt="error picture" width="120"></a></li><br>
+        <li class="oras"><a href="https://en.wikipedia.org/wiki/Ia%C8%99i">&nbsp Iasi &nbsp
+        <img src="images/index/iasi1.jpg" alt="error picture" width="120"></a></li><br>
+        <li class="oras"><a href="https://en.wikipedia.org/wiki/Oradea">Oradea
+        <img src="images/index/oradea1.jpg" alt="error picture" width="120"></a></li><br>
+        <li class="oras"><a href="https://en.wikipedia.org/wiki/Arad,_Romania">Arad
+        <img src="images/index/arad1.jpg" alt="error picture" width="120"></a></li><br>
+        <li class="oras"><a href="https://www.sibiucity.ro">Sibiu
+        <img src="images/index/sibiu1.jpg" alt="error image" width="120"></a></li><br>
+        <li class="oras"><a href="http://www.visitalbaiulia.city">&nbsp Alba &nbsp
+        <img src="images/index/alba1.jpg" alt="error picture" width="120"></a></li><br>
+        <li class="oras"><a href="http://www.tulcea.com">Tulcea
+        <img src="images/index/tulcea1.jpg" alt="error picture" width="120"></a></li><br>
+        <li class="oras"><a href="https://www.thecrazytourist.com/15-best-things-to-do-in-suceava-romania">Suceava
+        <img src="images/index/suceava1.jpg" alt="error picture" width="120"></a></li><br>
+        <li class="oras"><a href="https://www.tripadvisor.com/Tourism-g1784438-Botosani_Botosani_County_Northeast_Romania-Vacations.html">Botosani
+        <img src="images/index/botosani1.jpg" alt="error image" width="120"></a></li><br>
       </ul>
       </aside>
       <div>
         <aside class="right"> 
-        <ul>
-          <li><a href="#Picture">Peisaje</a></li>
-          <li><a href="#Foto">Foto</a></li>
-          <li><a href="#Video">Video</a></li>
-          <li><a href="#Live">Live</a></li>
-          <li><a href="#Live">Istorie</a></li>
-          <li><a href="#Live">Stiri</a></li>
-        </ul>
+          <Button>▶&nbsp Informatii</Button>  
+            <text>Natura</text><br>
+            <text>Locuri de vacanta</text><br>
+            <text>Obiective turistice</text><br>
+            <text>Statiuni</text><br>
+            <text>Geografie</text><br>
+            <text>Istorie</text><br>
+            <text>Cultura</text><br>
+            <text>Sporturi</text><br>
+          <Button>▶&nbsp Promovare</Button>
+            <text>Agentii de turism</text><br>
+            <text>Oferte de promovare turistica</text><br>
+            <text>Agentii de publicitate</text><br>
+            <text>Oferte speciale</text><br>
+            <text>Joburi in turism</text><br>
+            <text>Imobiliare in turism</text><br>
+          <Button>▶&nbsp Utile</Button>
+            <text>Trasee turistice</text><br>
+            <text>Trusa de prim ajutor</text><br>
+            <text>Ghiduri turisice</text><br>
+            <text>Salvamont</text><br>
+            <text>Vanatoare/Pescuit</text>
+            <text>Gastronomie</text><br>
+            <text>Tursim de aventura</text><br>
+            <text>Centre de informare</text><br>
+          <Button>▶&nbsp Diverse</Button>
+            <text>Bloguri de calatorie</text><br>
+            <text>Competiti</text><br>
+            <text>Alergari montane</text><br>
+            <text>Cazari</text>
+            <text>Manastiri</text>
+          <Button>▶&nbsp Regiuni</Button>
+          <ul>
+            <li>Muntenia</li><hr>
+            <li>Transilvania</li><hr>
+            <li>Moldova</li><hr>
+            <li>Basarabia</li><hr>
+            <li>Bucovina</li><hr>
+            <li>Maramures</li><hr>
+            <li>Ardeal</li><hr>
+            <li>Banat</li><hr>
+            <li>Crisana</li><hr>
+            <li>Oltenia</li><hr>
+            <li>Dobrogea</li><hr>
+          </ul>
         </aside>
       </div>
       <div class="listapoze">
-      <table width="75%">
+      <table width="67%">
         <tr>
-          <td><img src="https://www.oradesibiu.ro/wp-content/uploads/2017/08/balea.webp" width="600" target="_self"></td>
-          <td class="textimagine"><h1 class="titlutext">Balea Lac</h1>  
-            <p>Bâlea Lac se află la 2.000 de metri altitudine, în una dintre cele mai pitoreşti locuri din România, în Munţii Făgăraş, la o distanţă de 80 de kilometri de oraşul Sibiu. La frumuseţea locului contribuie şi drumul parcurs până acolo, respectiv şoseaua Transfăgărăşan. Este greu de descris în cuvinte frumuseţea peisajului de care vei avea parte, îţi va tăia respiraţia de-a dreptul. </p>
-            <p>De la Lacul Bâlea se pornește în ascensiuni spre vârfurile Negoiu, Vânătarea lui Buteanu, dar și spre Vârful Moldoveanu, prin Șaua Caprei. Mulți turiști neechipați se aventurează pe câteva sute de metri pe traseele de drumeție vizibile deasupra lacului, doar pentru a surprinde o panoramă cât mai impresionantă a lacului și a zonei înconjuătoare.</p>
-          </th>
-        </tr>
-        <tr>
-          <td><img src="https://static.impact.ro/unsafe/970x546/smart/filters:contrast(5):format(jpg):quality(80)/https://www.impact.ro/wp-content/uploads/2020/07/delta-dunarii-cele-mai-frumoase-locuri-1024x630.jpg" width="600" target="_self"></td>
-          <td class="textimagine"><h1 class="titlutext">Delta Dunarii</h1> 
-            <p>Delta Dunarii este un loc unic nu doar in spatiul romanesc, ci si pe teritoriul european, fiind considerata „cel mai tanar pamant” de pe Batranul Continent. In momentul in care ajungi aici, simti ca ai intrat intr-o alta lume, unde timpul a stat pe loc, iar natura a pus stapanire pe tot ceea ce vezi. Senzatia este superba, iar cei care au ajuns aici s-au indragostit iremediabil de farmecul Deltei.</p>
-            <p>Obiective turistice : Insula Sacalin, Farul din Sulina, Centrul Muzeal Ecoturistic Delta Dunarii, Lacul Murighiol (Saraturi), Mila 23, Sfantu Gheorghe si multe altele.  </p>
-            <p>Este ceea mai mare rezervatie naturala din Europa. In anul 1991 a dobandit recunoasterea internationala, si a fost inscrisa in Patrimoniului Natural Mondial. Delta Dunarii este o regiune de mare frumusete turistica si de un real interes stiintific. Rezervatia Biosferei Delta Dunarii se afla pe locul 5 intre zonele umede ale Terrei si pe locul 2 in Europa, dar ca importanta ecologica este a 3-a din lume.</p> 
-            <p> Delta Dunarii reprezinta o zona de atractie turistica, datorita unei vegetatii si faune bogate, precum si a unor caracteristici care ii confera unicitate in intreaga lume.</p>
+          <td><a href="images/index/balea1.jpg" target="_blank">
+            <img src="images/index/balea1.jpg" alt="error picture" width="400"></a>
+            <a href="images/index/balea2.jpg" target="_blank">
+            <img src="images/index/balea2.jpg" alt="error picture" width="400"></a>
+          </td>
+          <td class="textimagine"><h1 class="titlutext">Balea Lake</h1>  
+            <p>Bâlea Lake is located at an altitude of 2,000 meters, in one of the most picturesque places in Romania, in the Făgăraş Mountains, at a distance of 80 kilometers from the city of Sibiu. The road to get there, respectively the Transfăgărăşan road, also contributes to the beauty of the place. It is difficult to describe in words the beauty of the landscape you will have, it will take your breath away.</p>
+            <p>From Lake Bâlea it starts in ascents towards the peaks of Negoiu, Vânătarea lui Buteanu, but also towards Vârful Moldoveanu, through Șaua Caprei. Many uninitiated tourists venture for several hundred meters on the hiking trails visible above the lake, just to capture the most impressive panorama of the lake and the surrounding area.</p>
           </td>
         </tr>
         <tr>
-          <td><img src="https://www.romaniajournal.ro/wp-content/uploads/2014/11/cazane.jpg" width="600" target="_self"></td>
-          <td class="textimagine"><h1 class="titlutext">Cazanele Dunarii</h1>
-          <p>Cazanele Dunării, cuprinzând cele două îngustări – Cazanele Mari şi Cazanele Mici reprezintă cea mai spectaculoasă porţiune din Defileul (sau Clisura) Dunării.</p>
-          <p>Cazanele Dunării este una din cele 18 arii naturale protejate din Parcul Natural Porţile de Fier. Este o rezervaţie mixtă ce conservă atât elemente floristice unice (laleaua de Cazane, clopoţeii Cazanelor, stânjenelul de stâncă, asociaţii vegetale submediteraneene), elemente faunistice (broasca ţestoasă de uscat -ţestoasa lui Hermann, vipera cu corn, scorpionul, guşterul etc) cât şi formaţiuni endocarstice (peşteri, avene) şi exocarstice (lapiezuri, doline, uvale). </p>
-          <p>Întreaga porţiune a Cazanelor Dunării, cuprinsă între confluenţa Dunării cu pâraiele Plavişeviţa şi Ogradena se desfăşoară pe o lungime de 9 km. </p>
-        </td>
+          <td><a href="images/index/delta2.jpg" target="_balnk">
+              <img src="images/index/delta2.jpg" alt="error picture" width="400" ></a>
+              <a href="images/index/delta3.jpg" target="_blank">
+              <img src="images/index/delta3.jpg" alt="error picture" width="400"></a>
+          </td>
+          <td class="textimagine"><h1 class="titlutext">The Danube Delta</h1> 
+            <p>The Danube Delta is a unique place not only in Romania, but also in Europe, being considered "the youngest land" on the Old Continent. The moment you get here, you feel like you've entered another world, where time has stood still, and nature has taken over everything you see. The feeling is superb, and those who came here fell in love with the charm of the Delta.</p>
+            <p>Tourist attractions: Sacalin Island, Sulina Lighthouse, Danube Delta Ecotourism Museum Center, Murighiol Lake (Salt), Mile 23, Sfantu Gheorghe and many others.</p>
+            <p>It is the largest nature reserve in Europe.The Danube Delta is a region of great tourist beauty and of real scientific interest. The Danube Delta Biosphere Reserve ranks 5th among the Earth's wetlands and 2nd in Europe, but is 3rd in ecological importance in the world.</p>
+          </td>
         </tr>
         <tr>
-          <td><img src="https://www.casa-ezio.ro/wp-content/uploads/2018/10/castelul_bran-900x450.jpg" width="600" target="_blank"></td>
-          <td class="textimagine"><h1 class="titlutext">Castelul Bran</h1>
-          <p>Istoria Castelului Bran începe în anul 1377 când, la 19 noiembrie, cancelaria regelui maghiar Ludovic cel mare (Ludovic I de Anjou) emite un act prin care acordă locuitorilor Brașovului privilegiul construirii unui castel. Acest document îndeamnă sașii (populație de origine germană venită în Transilvania în secolul al XII-lea) să participe la construcția Castelului Bran.</p>
-          <p>Castelul este construit la inceputul intrarii in pasajul Rucar-Bran in vecinatatea lui DN 73 ce leaga Brasovul de Campulung, la doar 30 km de Brasov iar distanta de la Bucuresti spre castelul Bran este de aproximativ 200 km.</p>
-          <p>Castelul Bran- Poarta de acces in castel prin vechea fantana. In 1937, in vechea fantana din curtea interioara a castelului a fost montat un lift electric, iar la baza fantanii a fost sapat un tunel orizontal in stanca, realizandu-se astfel legatura cu parcul resedintei.</p>  
-          <p>În anul 1918 Transilvania devine parte a României Mari. La data de 1 decembrie 1920 cetățenii Brașovului oferă castelul, ca urmare a unei hotărâri unanime a consiliului orășenesc, reginei Maria a României, descrisă în document ca o „mare regină, care ( …) răspândește binecuvântare pretutindeni unde pășește, cucerind astfel cu irezistibil avânt inimile populației țării întregi”. Castelul devine astfel reședința favorită a Reginei Maria, pe care îl va restaura și amenaja.</p>
-        </td>
+          <td><a href="images/index/cazane1.jpg" target="_blank">
+              <img src="images/index/cazane1.jpg" alt="error picture" width="400"></a>
+              <a href="images/index/cazane2.jpg" target="_blank">
+              <img src="images/index/cazane2.jpg" alt="error picture" width="400"></a>
+          </td>
+          <td class="textimagine"><h1 class="titlutext">Danube boilers</h1>
+              <p>Small Boilers and Large Boilers is the place where the Danube narrows the most in Romania, where the great Danube River flows through the narrowest and grandest area of the Danube Gorge.</p>
+              <p>The name of Boilers is given due to the vortices that form on the surface of the water due to the high flow that the Danube has in these rocky and narrow parts, where the turbulent water sometimes gives the impression that it is boiling.</p>
+              <p>Boiler region is near the city of Orșova, about 365 km from Bucharest. Coming from Drobeta Turnu-Severin, you pass by the largest dam in Romania, the Iron Gates and the border point with Serbia.</p>
+            </td>
         </tr>
         <tr>
-          <td><img src="https://travellingbalkans.com/wp-content/uploads/2019/09/IMG_6392-1150x767.jpg" width="600" target="_blank"></td>
-          <td class="textimagine"><h1 class="titlutext">Orasul medieval Sighisoara</h1>
-            <p>Sighisoara are un aer medieval atat de pregnant, incat pana si regimul dinainte de Revolutia 1989 a fost suficient de sensibilizat pentru a nu-l deteriora.</p>
-            <p>Este singura cetate fortificata locuita din Romania si una dintre putinele din Europa. </p>
-            <p>In inima cetatii Sighisoara, micuta piata de vis Piata Cetatii pare a fi locul perfect dintre toate aceste locuri de vizitat in Sighisoara pentru a scrie o ilustrata. Inconjurata de cateva cladiri etajate si stilate, pictate in frumoase culori pastelate, se numara printre cele mai frumoase piete medievale ale Romaniei.</p>
-            <p>Turnul cu Ceas ofera o primire impozanta la intrarea in piata.</p>
-            <p>Una dintre cele mai vechi cladiri ale Pietei Cetatii, Casa cu cerb dateaza din anii 1300 si are coarne de cerb intr-un colt. Renovata de Fundatia Messershmidt, acum este un hotel.</p>
-            <p>In piata Muzeului la Nr. 6, sub turnul cu ceas, Casa Vlad Dracul este una dintre cele mai vechi cladiri ale Sighisoarei si a fost probabil casa lui Vlad Dracul si locul nasterii fiului sau, Vlad Tepes. </p>
+          <td>
+            <a href="images/index/bran1.png" target="blank">
+            <img src="images/index/bran1.png" alt="error picture" width="400"></a>
+            <a href="images/index/bran2.jpg" target="blank">
+            <img src="images/index/bran2.jpg" alt="error picture" width="400"></a>
+          </td>
+          <td class="textimagine"><h1 class="titlutext">Bran Castle</h1>
+            <p>The castle is built at the beginning of the entrance in the Rucar-Bran passage in the vicinity of DN 73 that connects Brasov with Campulung, only 30 km from Brasov and the distance from Bucharest to Bran castle is about 200 km.</p>
+            <p>Known in the past as the birthplace of the legend of Count Dracula, it still retains the truth of the myth and attracts hundreds of tourists each year.</p>
+            <p>Count Dracula is said to be a fictional character, and his name is inspired by the nickname given to Vlad Tepes, who was once considered a bloodthirsty and ruthless prince with humans.</p>
+            <p>However, it is true that Vlad Tepes is representative of Bran Castle, because he led a long time ago organizations that aimed to punish the German merchants present in the city of Brasov, who did not want to obey him.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="images/index/sighisoara1.jpg" target="blank">
+            <img src="images/index/sighisoara1.jpg" alt="error picture" width="400"></a>
+            <a href="images/index/sighisoara2.jpg" target="blank">
+            <img src="images/index/sighisoara2.jpg" alt="error picture" width="400"></a>
+          <td class="textimagine"><h1 class="titlutext">Medieval city Sighisoara</h1>
+            <p>It is the only inhabited fortified fortress in Romania and one of the few in Europe.</p>
+            <p>In the heart of the Sighisoara fortress, the small dream square The Citadel Square seems to be the perfect place among all these places to visit in Sighisoara to write an illustrated one.</p>
+            <p>Surrounded by several storeyed and stylish buildings, painted in beautiful pastel colors, it is one of the most beautiful medieval squares in Romania.</p>
+            <p>The Clock Tower offers an impressive reception at the entrance to the market.</p>
+            <p>One of the oldest buildings in the Citadel Square, the Deer House dates back to the 1300s and has deer antlers in one corner.</p>
           </td>
         </tr>
         <tr>
@@ -303,14 +386,13 @@ footer {
             <a href="images/title/transalpina.jpg">6</a> 
           </td>
           <td>   
-            
           </td>
         </tr>
       </table>
       </div>
       <footer>
         <div>
-          <form action="/action_page.php">
+          <form action="mailto:iulian20_bv@yahoo.com" method="post" >
             <label for="fname">Nume:</label>
             <input type="text" id="fname" name="fname">
             <label for="lname">Prenume:</label>
